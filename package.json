@@ -1,0 +1,30 @@
+{
+  "name": "qr-generator-bot",
+  "version": "1.0.0",
+  "description": "QR generator bot coded by Akhro#9711",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Achroo/qr-generator-bot.git"
+  },
+  "keywords": [
+    "qr"
+  ],
+  "author": "Akhro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achroo/qr-generator-bot/issues"
+  },
+  "homepage": "https://github.com/Achroo/qr-generator-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.1"
+  }
+}
